@@ -1,0 +1,49 @@
+html {
+    margin: 0 auto;
+    padding: 0;
+}
+body, .container-fluid {
+    margin: 0 auto;
+    padding: 0;
+}
+.content {
+    background-color: rgb(228, 211, 243);
+    width: 100%;
+}
+.container-fluid {
+    background-color: rgb(198, 162, 231);
+}
+a, a:hover, a:visited {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-image: linear-gradient(to bottom, rgb(166, 116, 212),rgb(228, 211, 243));
+
+    min-height: 150px;
+    width: 100%;
+
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.header h1 a {
+    color: blueviolet;
+    font-weight: 900;
+    font-size: 32px;
+    text-shadow: 1px 1px 3px black;
+}
+.panel {
+    margin: 20px 200px 20px 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+}
+.published_date, .author {
+    color: rgb(110, 103, 103);
+    font-weight: bold;
+}
